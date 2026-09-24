@@ -1,0 +1,10 @@
+path: /content/drive/MyDrive/data
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 3
+names:
+  0: Platelets
+  1: RBC
+  2: WBC

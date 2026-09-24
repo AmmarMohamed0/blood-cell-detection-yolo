@@ -1,0 +1,142 @@
+/* ---------- GLOBAL ---------- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url("background.jpeg");
+    background-size: cover;
+    background-position: center;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* ---------- DASHBOARD ---------- */
+.dashboard {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 30px 40px;
+}
+
+/* ---------- PANEL ---------- */
+.panel {
+    width: 420px;
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 24px;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.3);
+}
+
+/* ---------- TEXT ---------- */
+h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.subtitle {
+    font-size: 13px;
+    margin-bottom: 14px;
+    color: #555;
+}
+
+/* ---------- INPUT ---------- */
+input[type="file"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #1e9aff;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #000;
+}
+
+/* ---------- IMAGE PREVIEW ---------- */
+.image-box {
+    margin-top: 14px;
+    width: 100%;
+    height: 220px;
+    background: #f4f6f9;
+    border: 2px solid #d0d7e2;
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+#placeholder {
+    text-align: center;
+    color: #666;
+}
+
+#placeholder span {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.image-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: none;
+}
+
+/* ---------- COUNTS ---------- */
+.counts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+
+.card {
+    width: 30%;
+    padding: 8px 0;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 13px;
+}
+
+.card span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.rbc {
+    background: #e63946;
+}
+
+.wbc {
+    background: #1e9aff;
+}
+
+.platelets {
+    background: #f4b400;
+}
+
+/* ---------- DOWNLOAD ---------- */
+.download {
+    background: #2ca02c;
+    margin-top: 16px;
+}

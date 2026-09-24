@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Cell Detection</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <div class="panel">
+
+        <h1>🩸Blood Cell Detection & Counting</h1>
+        <p class="subtitle">YOLO-based RBC, WBC & Platelets Analysis</p>
+
+        <!-- Upload -->
+        <input type="file" id="imageInput" accept="image/*" onchange="previewImage()">
+        <button onclick="uploadImage()">Analyze Image</button>
+
+        <!-- Preview -->
+        <div class="image-box">
+            <div id="placeholder">
+                <span>Image Preview</span>
+                <p>Drag & drop or click upload</p>
+            </div>
+            <img id="preview" alt="Preview">
+        </div>
+
+        <!-- Counts -->
+        <div class="counts">
+            <div class="card rbc">
+                <h3>RBC</h3>
+                <span id="rbcCount">0</span>
+            </div>
+            <div class="card wbc">
+                <h3>WBC</h3>
+                <span id="wbcCount">0</span>
+            </div>
+            <div class="card platelets">
+                <h3>Platelets</h3>
+                <span id="plateletCount">0</span>
+            </div>
+        </div>
+
+        <!-- Download -->
+        <a href="/download-report">
+            <button class="download">Download PDF Report</button>
+        </a>
+
+    </div>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
