@@ -8,7 +8,7 @@
   <img alt="Ultralytics YOLO" src="https://img.shields.io/badge/model-YOLO26n-00b4d8?style=flat">
   <img alt="License" src="https://img.shields.io/github/license/AmmarMohamed0/blood-cell-detection-yolo?style=flat">
   <img alt="Last Commit" src="https://img.shields.io/github/last-commit/AmmarMohamed0/blood-cell-detection-yolo?style=flat">
-  <img alt="Repo Size" src="https://img.shields.io/github/repo-size/AmmarMohamed0/blood-cell-detection-yolo?style=flat">
+  <img alt="Repo Size" src="https://img.shields.io/badge/repo%20size-23MB-blue?style=flat">
   <img alt="Status" src="https://img.shields.io/badge/status-active-success?style=flat">
 </p>
 
