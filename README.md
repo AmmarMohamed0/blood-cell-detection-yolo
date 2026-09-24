@@ -225,6 +225,10 @@ print(results[0].boxes)    # inspect raw detections
 
 ## 🖼️ Screenshots
 
+**Web dashboard** — the app after analyzing a sample blood smear image:
+
+![Web dashboard](static/screenshots/dashboard-preview.png)
+
 **Detected blood cells** — bounding boxes with class labels and confidence scores, output by `/predict`:
 
 ![Annotated detection output](static/output/processed.jpg)
@@ -284,9 +288,7 @@ Please keep pull requests focused and, where possible, open an issue first to di
 
 ## 📄 License
 
-This repository does not currently include a `LICENSE` file. Until one is added, the code is **all rights reserved** by the author, and reuse should not be assumed.
-
-If you are the maintainer, consider adding an open-source license such as [MIT](https://choosealicense.com/licenses/mit/) to clarify how others may use, modify, and distribute this project.
+This project is licensed under the **[MIT License](LICENSE)** — you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this project, provided the original copyright notice and license text are included. See the [`LICENSE`](LICENSE) file for the full text.
 
 ---
 
